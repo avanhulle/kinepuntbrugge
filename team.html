@@ -22,19 +22,27 @@
 			});
 		</script>
 		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+						m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-77927246-1', 'auto');
-  ga('send', 'pageview');
+			ga('create', 'UA-77927246-1', 'auto');
+			ga('send', 'pageview');
 
-</script>
+		</script>
 		<link rel="icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/520c5ab1eb5a9c3a0d0001f6/favivon.png">
 		<link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/520c5ab1eb5a9c3a0d0001f6/favivon-mobile.png">
 		<script type="text/javascript" src="js/webflow.js" defer></script>
-	</head><body>
+	</head>
+	<body>
 		<div class="section header" id="page-nav-top">
 			<div class="w-row header">
 				<div class="w-col w-col-3 logo-bar">
@@ -52,46 +60,52 @@
 			<div class="w-row">
 				<div class="w-col w-col-push-4">
 					<br> <br>
-				<style type="text/css">
-					.makeAppointmentButton{
-						background: transparent url("../images/button_blue.png") no-repeat;
-						width: 362px;
-						height: 62px;
-						padding: 0px;
-						border: none;
-						text-align: left; 
-						margin-top: 5px;
-					}
-					.makeAppointmentButton:hover {
-						background-image: url("../images/button_blue_hover.png");
-						cursor: pointer;
-					}
-					.makeAppointmentButton .text{
-						margin-left: 28px;
-						float: left;
-						font-size: 13px;
-						font-weight: bold;
-						color: #fff;
-					}
-					.makeAppointmentButton .buttonInnerContent img{
-						float: right;
-						margin-right: 8px;
-					}
-				</style>
-				<button class="makeAppointmentButton" type="button" onclick="makeAppointment()">
-					<span class="text">Maak afspraak</span>
-				</button>
-				<script type="text/javascript">
-					function makeAppointment(){
-						var head = document.getElementsByTagName("head")[0];
-						if(head){var script = document.createElement("script");
-							script.type="text/javascript";script.src="https://my.oxyboxy.be/stable/CrmBaseWebservice.asmx/GetWebsiteButtonUrlNoParam?key=LfBdyX1yM9qDswNloVlq9FTRjsijRgslqRLanP6VaZM0G9Uw3b6qUu1OA5BNs96mu%2Br1tdmmXTxUJOXYLAmWjmamC0J7LvfrK8LpBH2kUwWvGlMSUSyuYJIhkf3c3p%2B7mXgGK96WONO%2BzPDe%2BwGwH3KzS0GI2ktq%2BeZH9auS%2FEk%3D&callback=redirectToOxyCity";
-							head.appendChild(script);}}
-					function redirectToOxyCity(data){window.location.href = data[0].x;}
-				</script>
+					<style type="text/css">
+						.makeAppointmentButton{
+							background: transparent url("../images/button_blue.png") no-repeat;
+							width: 362px;
+							height: 62px;
+							padding: 0px;
+							border: none;
+							text-align: left; 
+							margin-top: 5px;
+						}
+						.makeAppointmentButton:hover {
+							background-image: url("../images/button_blue_hover.png");
+							cursor: pointer;
+						}
+						.makeAppointmentButton .text{
+							margin-left: 28px;
+							float: left;
+							font-size: 13px;
+							font-weight: bold;
+							color: #fff;
+						}
+						.makeAppointmentButton .buttonInnerContent img{
+							float: right;
+							margin-right: 8px;
+						}
+					</style>
+					<button class="makeAppointmentButton" type="button" onclick="makeAppointment()">
+						<span class="text">Maak afspraak</span>
+					</button>
+					<script type="text/javascript">
+						function makeAppointment() {
+							var head = document.getElementsByTagName("head")[0];
+							if (head) {
+								var script = document.createElement("script");
+								script.type = "text/javascript";
+								script.src = "https://my.oxyboxy.be/stable/CrmBaseWebservice.asmx/GetWebsiteButtonUrlNoParam?key=LfBdyX1yM9qDswNloVlq9FTRjsijRgslqRLanP6VaZM0G9Uw3b6qUu1OA5BNs96mu%2Br1tdmmXTxUJOXYLAmWjmamC0J7LvfrK8LpBH2kUwWvGlMSUSyuYJIhkf3c3p%2B7mXgGK96WONO%2BzPDe%2BwGwH3KzS0GI2ktq%2BeZH9auS%2FEk%3D&callback=redirectToOxyCity";
+								head.appendChild(script);
+							}
+						}
+						function redirectToOxyCity(data) {
+							window.location.href = data[0].x;
+						}
+					</script>
 				</div>
 			</div>			
-			
+
 			<div class="w-container hero-text"></div>
 		</div>
 
@@ -102,7 +116,7 @@
 				<div class="w-container">
 					<h2>Team KINEpuntBRUGGE</h2>
 					<div class="w-row">
-						<div class="w-col w-col-3">
+						<div class="w-col w-col-4">
 							<img src="images/team_tom.png" alt="Tom De Prest">
 							<h3 class="name">Tom <br>De Prest</h3>
 							<div class="job-title">Manuele Therapie
@@ -126,7 +140,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="w-col w-col-3">
+						<div class="w-col w-col-4">
 							<img src="images/team_femke.png" alt="Femke Blontrock">
 							<h3 class="name">Femke <br>Blontrock</h3>
 							<div class="job-title">Manuele Therapie
@@ -159,7 +173,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="w-col w-col-3">
+						<div class="w-col w-col-4">
 							<img src="images/team_ester.png" alt="Esther Deseins">
 							<h3 class="name">Esther<br>Deseins</h3>
 							<div class="job-title">Respiratoire Kinesitherapie<br>
@@ -168,23 +182,24 @@
 								<br>
 								<br><br><br><br><br><br></div>
 							<p class="team-text">In 2013 studeerde ik af als master in de revalidatiewetenschappen en kinesitherapie (afstudeerrichting musculoskeletale aandoeningen) aan de Universiteit van Gent. Na mijn studies ben ik mij gaan specialiseren in respiratoire kinesitherapie (ademhalingstherapie). Ik deed de opleidingen van Postiaux en van Chevalier om een beter inzicht te krijgen in de ademhalingsproblemen van baby’s, kinderen en volwassenen en dit zowel chronisch als acuut.
-Tijdens mijn opleiding deed ik de cursus Medical Taping Concept (kinesiotaping). Als keuzevakken koos ik voor Pediatric Rehabilitation en de pediatrische motorische ontwikkeling. Hierdoor kan ik lichte motorische ontwikkelingsstoornissen bij baby’s en kinderen behandelen.
-In september 2016 start ik met de 2-jarige opleiding Sportgerichte Combinatietherapie Manuele therapie en Osteopathie (SCMO). Dit om een nog bredere kennis te hebben over het functioneren of niet-functioneren van het menselijk lichaam. Tevens wil ik mij ook verdiepen in het gebruik van dry-needling.
-Deze opleidingen en interesses geven mij een brede kijk op het totale menselijke lichaam om een op-maat-gemaakte behandeling te kunnen geven.	
-								
-								
-			</p>
+								Tijdens mijn opleiding deed ik de cursus Medical Taping Concept (kinesiotaping). Als keuzevakken koos ik voor Pediatric Rehabilitation en de pediatrische motorische ontwikkeling. Hierdoor kan ik lichte motorische ontwikkelingsstoornissen bij baby’s en kinderen behandelen.
+								In september 2016 start ik met de 2-jarige opleiding Sportgerichte Combinatietherapie Manuele therapie en Osteopathie (SCMO). Dit om een nog bredere kennis te hebben over het functioneren of niet-functioneren van het menselijk lichaam. Tevens wil ik mij ook verdiepen in het gebruik van dry-needling.
+								Deze opleidingen en interesses geven mij een brede kijk op het totale menselijke lichaam om een op-maat-gemaakte behandeling te kunnen geven.	
+
+
+							</p>
 							<div class="social-team">
 								<a class="w-inline-block social-icon" href="mailto:esther@kinepuntbrugge.be" target="_blank">
 									<img src="images/email.png" width="32" alt="email.png">
 								</a>
 							</div>
 						</div>
-						<div class="w-col w-col-3">
+						<p>&nbsp;</p>
+						<div class="w-col w-col-4">
 							<img src="images/team_thibault.png" alt="Thibault">
 							<h3 class="name">Thibault<br>De Jaeger</h3>
 							<div class="job-title">Manule Therapie<br>NST<br>Medical Taping
-								<br><br><br><br><br><br><br><br></div>
+								<br><br><br><br></div>
 							<p class="team-text">
 
 								Ik studeerde af als master in de revalidatiewetenschappen en kinesitherapie (optie 
@@ -204,9 +219,6 @@ Deze opleidingen en interesses geven mij een brede kijk op het totale menselijke
 								ook zo te behandelen. Dit zowel via manueel gerichte therapie als via oefentherapie, 
 								zodat de patiënt na de revalidatie terug kan beginnen op zijn/haar gewenste niveau.
 
-
-
-
 							</p>
 							<div class="social-team">
 								<a class="w-inline-block social-icon" href="mailto:thibault@kinepuntbrugge.be" target="_blank">
@@ -214,6 +226,36 @@ Deze opleidingen en interesses geven mij een brede kijk op het totale menselijke
 								</a>
 							</div>
 						</div>
+
+						<div class="w-col w-col-4">
+							<img src="images/team_loes.png" alt="Thibault">
+							<h3 class="name">Loes<br>Meulepas</h3>
+							<div class="job-title">Algemene Kinesitherapie<br>Medical taping<br>Osteopathie (in opleiding)
+								<br><br><br><br></div>
+							<p class="team-text">
+								Ik behaalde in juni 2016 mijn masterdiploma in de revalidatiewetenschappen
+								en kinesitherapie aan de Universiteit van Gent. Als afstudeerrichting opteerde 
+								ik voor musculoskeletale aandoeningen om zo een gevarieerd publiek te kunnen
+								behandelen. Hierdoor kan ik naast manuele technieken ook oefentherapie
+								aanwenden om mijn patiënt beter te kunnen maken. 
+								In september 2016 startte ik met de opleiding osteopathie aan het Fico in
+								Antwerpen. Dit is een 6-jarige studie met als doel via een bredere kijk op het
+								menselijk lichaam de primaire oorzaak van de klacht op te sporen. Verder wordt
+								er gezocht naar een evenwicht tussen de verschillende systemen in ons lichaam
+								(spierweefsel, skelet, organen, bloedvaten en zenuwstelsel). Tenslotte wordt het
+								zelf genezend vermogen dat in ieder lichaam aanwezig is gestimuleerd. De manier
+								waarop een osteopaat dit alles doet is via zachte manuele technieken en tips voor
+								in het dagelijkse leven om ook een effect te hebben op lange termijn.
+
+
+							</p>
+							<div class="social-team">
+								<a class="w-inline-block social-icon" href="mailto:loes@kinepuntbrugge.be" target="_blank">
+									<img src="images/email.png" width="32" alt="email.png">
+								</a>
+							</div>
+						</div>						
+
 
 					</div>
 				</div>
